@@ -1,0 +1,5 @@
+pagehelper:
+  reasonable: true
+  params: count=countSql
+  offset-as-page-num: true
+  row-bounds-with-count: true

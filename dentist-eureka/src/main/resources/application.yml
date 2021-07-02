@@ -1,0 +1,10 @@
+server:
+  port: 8761
+spring:
+  #指定本项目在sc项目集下的名称 之后项目互相访问时用到
+  application:
+    name: dentist-eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.1.178:8761/eureka/

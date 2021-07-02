@@ -1,0 +1,18 @@
+server:
+  port: 5570
+  #应用名
+spring:
+  application:
+    name: dentist-config
+  #注册中心地址
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
